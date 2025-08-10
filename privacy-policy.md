@@ -31,5 +31,3 @@ We may update this Privacy Policy to reflect improvements or legal requirements.
 
 ### Contact Us
 If you have questions about this Privacy Policy or the App, contact us at: sabaldev670@gmail.com
-
-
