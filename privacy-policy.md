@@ -1,6 +1,6 @@
-## Privacy Policy — QR Code Scanner
+## Privacy Policy — QR Code Scan
 
-This Privacy Policy describes how the QR Code Scanner app ("the App") handles your information. We designed the App to scan QR codes and barcodes on your device with privacy in mind.
+This Privacy Policy describes how the QR Code Scan app ("the App") handles your information. We designed the App to scan QR codes and barcodes on your device with privacy in mind.
 
 ### Summary
 - **No account and no personal data collection**: We do not collect, sell, rent, or share personal data.
