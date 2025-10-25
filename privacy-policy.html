@@ -5,57 +5,197 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Privacy Policy — QR Code Scan</title>
   <style>
-    body { font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; padding: 2rem; max-width: 820px; margin: auto; color: #111; }
-    h1, h2, h3 { line-height: 1.25; }
-    h1 { font-size: 1.8rem; margin-bottom: 0.25rem; }
-    h2 { font-size: 1.25rem; margin-top: 2rem; }
-    h3 { font-size: 1.05rem; margin-top: 1.25rem; }
-    code { background: #f4f4f4; padding: 0.1rem 0.3rem; border-radius: 4px; }
-    ul { margin-left: 1.25rem; }
-    .muted { color: #555; }
+    body { 
+      font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; 
+      line-height: 1.6; 
+      padding: 2rem; 
+      max-width: 820px; 
+      margin: auto; 
+      color: #111; 
+      background-color: #fff;
+    }
+    h1, h2, h3 { 
+      line-height: 1.25; 
+      color: #333;
+    }
+    h1 { 
+      font-size: 1.8rem; 
+      margin-bottom: 0.25rem; 
+      border-bottom: 2px solid #007bff;
+      padding-bottom: 0.5rem;
+    }
+    h2 { 
+      font-size: 1.25rem; 
+      margin-top: 2rem; 
+      color: #007bff;
+    }
+    h3 { 
+      font-size: 1.05rem; 
+      margin-top: 1.25rem; 
+      color: #555;
+    }
+    code { 
+      background: #f4f4f4; 
+      padding: 0.1rem 0.3rem; 
+      border-radius: 4px; 
+      font-family: 'Courier New', monospace;
+    }
+    ul { 
+      margin-left: 1.25rem; 
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    .muted { 
+      color: #555; 
+    }
+    .highlight {
+      background-color: #e7f3ff;
+      padding: 1rem;
+      border-left: 4px solid #007bff;
+      margin: 1rem 0;
+    }
+    .contact-info {
+      background-color: #f8f9fa;
+      padding: 1rem;
+      border-radius: 8px;
+      margin-top: 2rem;
+    }
+    .effective-date {
+      font-style: italic;
+      color: #666;
+      margin-bottom: 1rem;
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
   </style>
-  <meta name="description" content="Privacy Policy for the QR Code Scan app. We do not collect personal data; camera processing happens on-device." />
+  <meta name="description" content="Privacy Policy for the QR Code Scan app. We collect minimal data for app functionality and user feedback." />
   <meta name="robots" content="noindex" />
 </head>
 <body>
   <h1>Privacy Policy — QR Code Scan</h1>
+  <p class="effective-date"><strong>Effective Date:</strong> January 2025</p>
+  
   <p>This Privacy Policy describes how the QR Code Scan app ("the App") handles your information. We designed the App to scan QR codes and barcodes on your device with privacy in mind.</p>
 
-  <h2>Summary</h2>
+  <div class="highlight">
+    <h2>Summary</h2>
+    <ul>
+      <li><strong>Minimal data collection</strong>: We collect only essential data for app functionality and user feedback.</li>
+      <li><strong>On-device processing</strong>: Camera frames used for scanning stay on your device and are not uploaded.</li>
+      <li><strong>Transparent data handling</strong>: All data collection is clearly disclosed and optional where possible.</li>
+    </ul>
+  </div>
+
+  <h2>Information We Collect</h2>
+  
+  <h3>Email Addresses</h3>
   <ul>
-    <li><strong>No account and no personal data collection</strong>: We do not collect, sell, rent, or share personal data.</li>
-    <li><strong>On-device processing</strong>: Camera frames used for scanning stay on your device and are not uploaded.</li>
-    <li><strong>No ads and no analytics SDKs</strong>: The App does not include advertising, analytics, or crash-reporting SDKs.</li>
+    <li><strong>When collected</strong>: Only when you voluntarily send feedback through the app</li>
+    <li><strong>Purpose</strong>: To respond to your feedback and improve the app</li>
+    <li><strong>Sharing</strong>: Email addresses are shared with email service providers (Gmail, etc.) to enable feedback functionality</li>
+    <li><strong>Retention</strong>: We do not store email addresses on our servers</li>
+    <li><strong>Optional</strong>: You can use the app without ever providing an email address</li>
   </ul>
 
-  <h2>Information We Process</h2>
+  <h3>App Interaction Data</h3>
   <ul>
-    <li><strong>Camera input (on-device only)</strong>: The camera is used solely to detect and decode QR codes and barcodes in real time. Frames are processed locally and are not stored or transmitted by the App.</li>
-    <li><strong>Scan results you choose to act on</strong>: If you tap a result (for example, to open a URL, join Wi-Fi, share text, or copy content), that action may involve other apps or system services which are governed by their own policies.</li>
+    <li><strong>When collected</strong>: Automatically during app usage for core functionality</li>
+    <li><strong>Purpose</strong>: Required for barcode scanning functionality through Google ML Kit</li>
+    <li><strong>Sharing</strong>: Shared with Google for analytics purposes to improve ML services</li>
+    <li><strong>Processing</strong>: Data is processed ephemerally (in memory only)</li>
+    <li><strong>Required</strong>: This data collection is necessary for the app's core scanning feature</li>
+  </ul>
+
+  <h3>Camera Input (On-Device Only)</h3>
+  <ul>
+    <li><strong>Processing</strong>: Camera frames are processed locally and are not stored or transmitted</li>
+    <li><strong>Purpose</strong>: Solely to detect and decode QR codes and barcodes in real time</li>
+    <li><strong>Retention</strong>: Frames are discarded immediately after processing</li>
+  </ul>
+
+  <h3>Scan Results</h3>
+  <ul>
+    <li><strong>Storage</strong>: Scan history is stored locally on your device only</li>
+    <li><strong>Sharing</strong>: Results are only shared when you choose to act on them (open URLs, share content, etc.)</li>
   </ul>
 
   <h2>Permissions We Use and Why</h2>
   <ul>
     <li><code>android.permission.CAMERA</code>: Enables scanning QR codes and barcodes with the device camera.</li>
     <li><code>android.permission.VIBRATE</code>: Provides optional haptic feedback after a successful scan.</li>
-    <li><code>android.permission.ACCESS_NETWORK_STATE</code> and <code>android.permission.INTERNET</code>: Allows the App to open links you choose and to check connectivity when needed for those user-initiated actions. The App does not upload personal data.</li>
-    <li><code>android.permission.ACCESS_WIFI_STATE</code> and <code>android.permission.CHANGE_WIFI_STATE</code>: Lets the App read Wi-Fi status and, when you explicitly choose a Wi-Fi QR code result, help you connect by adjusting Wi-Fi settings.</li>
+    <li><code>android.permission.ACCESS_NETWORK_STATE</code> and <code>android.permission.INTERNET</code>: Allows the App to open links you choose, fetch website titles, and check connectivity when needed for user-initiated actions.</li>
+    <li><code>android.permission.ACCESS_WIFI_STATE</code> and <code>android.permission.CHANGE_WIFI_STATE</code>: Lets the App read Wi-Fi status and help you connect to Wi-Fi networks from QR codes.</li>
+    <li><code>android.permission.ACCESS_FINE_LOCATION</code> and <code>android.permission.ACCESS_COARSE_LOCATION</code>: Used for location-based QR code functionality (maps, directions).</li>
   </ul>
 
   <h2>Data Sharing</h2>
-  <p>We do not share your personal data with third parties. There are no embedded third-party SDKs (e.g., advertising, analytics, crash reporting) in the App.</p>
+  
+  <h3>Third-Party Services</h3>
+  <ul>
+    <li><strong>Email Service Providers</strong>: When you send feedback, your email address is shared with email service providers (Gmail, Outlook, etc.)</li>
+    <li><strong>Google ML Kit</strong>: App interaction data is shared with Google for analytics and service improvement</li>
+    <li><strong>Website Servers</strong>: When fetching website titles, URLs are transmitted to the respective website servers</li>
+  </ul>
+
+  <h3>What We Don't Share</h3>
+  <ul>
+    <li>We do not sell, rent, or share your personal data with advertisers</li>
+    <li>We do not share scan history or camera data</li>
+    <li>We do not share data with analytics or advertising SDKs</li>
+  </ul>
 
   <h2>Data Retention</h2>
-  <p>The App does not retain personal data. Camera frames are processed in memory and discarded. Scan history, if shown, exists only on your device unless you choose to clear it. If you export or share results, those actions are controlled by you.</p>
+  <ul>
+    <li><strong>Email addresses</strong>: Not stored on our servers; only used for feedback responses</li>
+    <li><strong>App interaction data</strong>: Processed ephemerally and not retained</li>
+    <li><strong>Camera frames</strong>: Processed in memory and discarded immediately</li>
+    <li><strong>Scan history</strong>: Stored locally on your device until you clear it</li>
+    <li><strong>Website titles</strong>: Cached temporarily for display purposes</li>
+  </ul>
 
-  <h2>Security</h2>
-  <p>We take reasonable measures to process data locally and minimize network use. As with any software, no method is 100% secure, but the App is built to avoid transmitting camera data off the device.</p>
+  <h2>Data Security</h2>
+  <ul>
+    <li>All data transmission is encrypted in transit (HTTPS, TLS)</li>
+    <li>Camera processing happens entirely on-device</li>
+    <li>We take reasonable measures to protect any data we handle</li>
+    <li>No method is 100% secure, but we minimize data collection and transmission</li>
+  </ul>
+
+  <h2>Your Rights and Choices</h2>
+  <ul>
+    <li><strong>Email collection</strong>: Completely optional - you can use the app without providing your email</li>
+    <li><strong>App interaction data</strong>: Required for core functionality, but processed ephemerally</li>
+    <li><strong>Scan history</strong>: You can clear this data anytime through the app settings</li>
+    <li><strong>Data deletion</strong>: Uninstalling the app removes all local data</li>
+  </ul>
+
+  <h2>Third-Party Libraries</h2>
+  <p>The app uses the following libraries that may collect data:</p>
+  <ul>
+    <li><strong>Google ML Kit</strong>: For barcode scanning functionality</li>
+    <li><strong>ZXing</strong>: For barcode processing (no data collection)</li>
+    <li><strong>CameraX</strong>: For camera functionality (no data collection)</li>
+    <li><strong>Room Database</strong>: For local data storage (no data collection)</li>
+  </ul>
 
   <h2>Changes to This Policy</h2>
-  <p>We may update this Privacy Policy to reflect improvements or legal requirements. Updates will be posted in this file and/or on the App’s store listing with a new effective date.</p>
+  <p>We may update this Privacy Policy to reflect improvements or legal requirements. Updates will be posted in this file and/or on the App's store listing with a new effective date. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
 
-  <h2>Contact Us</h2>
-  <p>If you have questions about this Privacy Policy or the App, contact us at: <a href="mailto:sabaldev670@gmail.com">sabaldev670@gmail.com</a></p>
+  <div class="contact-info">
+    <h2>Contact Us</h2>
+    <p>If you have questions about this Privacy Policy or the App, contact us at: <a href="mailto:sabaldev670@gmail.com">sabaldev670@gmail.com</a></p>
+  </div>
+
+  <hr style="margin-top: 3rem; border: none; border-top: 1px solid #ddd;">
+  <p class="muted" style="text-align: center; font-size: 0.9rem;">
+    <em>This privacy policy complies with Google Play Console data safety requirements and accurately reflects our data collection practices.</em>
+  </p>
 
 </body>
 </html>
